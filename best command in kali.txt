@@ -1,0 +1,44 @@
+apt-get update
+apt-get upgrade
+apt-get install name
+apt-get remove name 
+aptitude 
+cd /name >>> open directory file
+ls >>> browse
+lsblk >>>> devices
+kill >>>> allows to kills process 
+clear >>> clear the terminal screen
+date >>>> date 5 time
+ifconfig >>>> network configure
+gufw >>>> firewall 
+eject >>>> eject media 
+logout >>> logout account 
+netstat -a >>> network information 
+sleep >>>> sleep any time
+iceweasel >>>> browse iceweasel
+exit >>> exit the terminal
+users >>>> list users currently logged in 
+cd~ >>>> go to root directory 
+pwd >>>> show us the directory of the file 
+cd .. >>>> Return step back 
+cd />>>> go to home directory
+ls -lt >>>> give us the file was changed 
+cat filename.txt >>>> to read what under this file 
+mkdir documentname >>>>> creat a new document 
+touch name.txt >>>> creat file 
+mv name.txt /Desktop/ >>>> move the file to directory 
+rm -r namedocument/ >>>> delete all what in the folder 
+rm -rf /* >>>>> the dangerous command delete or the file in your systeme make you attention d'ont try it
+man rm >>>> give us all the command and how it works
+ls |grep namefile >>>>> search for the file 
+history >>>>> show us all the history command was used in your terminal 
+sudo >>>>> if you are a user will be change to root 
+sudo -L >>>> show you the permission of the user 
+locate namefile >>>> show us the directory of the file
+whoami >>>> show the user if root or users
+apt install open-vm-tools-desktop -y >>>>> to connect between vmwar and windows
+hostnamectl>>>>> show information system
+systemctl status open-vm-tools.service >>>> service for virtual machines hosted on vmware
+gedit name >>>>edit source of the file
+clear>>>>> delete information in terminal and clear screen
+git clone URL >>>>>> to download file or something else in your system 

@@ -1,0 +1,21 @@
+step1: edit source list
+leafpad /etc/apt/sources.list
+# Line commented out by installer because it failed to verify:
+#deb http://security.kali.org/kali-security/ sana/updates main contrib non-free
+# Line commented out by installer because it failed to verify:
+#deb-src http://security.kali.org/kali-security/ sana/updates main contrib non-free
+
+# Regular repositories
+deb http://http.kali.org/kali sana main non-free contrib
+deb http://security.kali.org/kali-security sana/updates main contrib non-free
+# Source repositories
+deb-src http://http.kali.org/kali sana main non-free contrib
+deb-src http://security.kali.org/kali-security sana/updates main contrib non-free
+
+step2: update
+apt-get update && apt-get upgrade && apt-get dist-upgrade
+apt-get install alacarte
+
+step3: synaptic
+apt-get install synaptic
+
